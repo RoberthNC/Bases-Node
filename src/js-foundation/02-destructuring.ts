@@ -4,7 +4,7 @@ const { USERDOMAIN } = process.env;
 
 // console.log('USERDOMAIN: ', USERDOMAIN);
 
-const superheros = ['Batman', 'Superman', 'Linterna verde', 'Spiderman'];
+export const superheros = ['Flash', 'Batman', 'Superman', 'Linterna verde', 'Spiderman'];
 
 const [ , , spiderman] = superheros;
 // console.log(spiderman);
